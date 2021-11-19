@@ -12,7 +12,13 @@ app.use(express.json());
 app.use(cors());
 
 const secretToken = "putinenv";
-app.get("/", (req, res) => {});
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build/index.html'));
+});
+
+app.get('/user', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/build/index.html'));
+});
 
 // user routes
 app.post("/register", (req, res) => {
