@@ -7,8 +7,8 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const path = require("path");
 const authenticate = require("./Middleware/AuthMiddleware");
-const { useStore } = require("react-redux");
 
+const secretToken = "putinenv";
 app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname, 'client/build')));
