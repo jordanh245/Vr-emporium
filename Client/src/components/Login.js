@@ -25,7 +25,7 @@ import {useHistory} from "react-router-dom"
 
 	const handleLogin = async (e) => {
 		e.preventDefault();
-		const login = await fetch('http://localhost:3001/login', {
+		const login = await fetch('http://localhost:3000/login', {
 			method: "POST",
 			mode: "cors",
 			headers: {
