@@ -29,5 +29,13 @@
   "devDependencies": {
     "install-peers": "^1.0.3"
   },
-  "description": ""
+  "description": "This website was made to fulfill the requirements of our Front End Solo Project.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanh245/Vr-emporium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jordanh245/Vr-emporium/issues"
+  },
+  "homepage": "https://github.com/jordanh245/Vr-emporium#readme"
 }
