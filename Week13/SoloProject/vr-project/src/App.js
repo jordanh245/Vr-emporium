@@ -3,15 +3,15 @@ import './App.css';
 import { BrowserRouter, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavbarInfo from './components/NavbarInfo';
 
-import Home from "../src/components/Home"
-import Cart from "../src/components/Cart"
-import Contact from "../src/components/Contact"
-import Products from "../src/components/Product"
+import Home from "./components/Home"
+import Cart from "./components/Cart"
+import Contact from "./components/Contact"
+import Products from "./components/Product"
 // import Error from "./Error";
 // import brand from "../assets/vr-glasses2.png"
-import Register from "../src/components/Register";
-import Login from "../src/components/Login";
-import Account from "../src/components/Account";
+import Register from "./components/Register";
+import Login from "./components/Login";
+import Account from "./components/Account";
 
 
 function App() {
