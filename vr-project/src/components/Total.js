@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import {Elements} from '@stripe/react-stripe-js';
 import {loadStripe} from '@stripe/stripe-js';
 // Styles
-import Checkout from "./Checkout"
+import Checkout from "../components/Checkout"
 
 const stripePromise = loadStripe('pk_test_51Jvn4JK9lSkN4Pbd01nuPW8nWnecj1PE9h2uApHKviNEpL3c1K9fDezkOC3KidOucoa5ROS0JosmfEOGjmKSQi9y00xZqQGwlB');
 
