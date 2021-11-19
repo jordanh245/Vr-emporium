@@ -125,7 +125,7 @@ import { useHistory } from "react-router";
 const ProductDisplay = () => (
   <section>
 
-    <form action="http://localhost:3000/create-checkout-session" method="POST">
+    <form action="http://localhost:3001/create-checkout-session" method="POST">
       <button type="submit">
         Checkout
       </button>
