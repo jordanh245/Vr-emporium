@@ -11,7 +11,7 @@ function Account() {
 		const token = localStorage.getItem("jsonwebtoken");
 		
 		const viewAccount = await fetch(
-			"http://localhost:3001/account/:email",
+			"http://localhost:3000/account/:email",
 			{
 				method:"GET",
 				headers: {
